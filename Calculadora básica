@@ -1,0 +1,41 @@
+package testes;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um numero: ");
+		int numeroA = sc.nextInt();
+		
+		System.out.println("Digite um sinal +, - * ou /");
+		String sinal = sc.next();
+		
+		System.out.println("Digite outro numero: ");
+		int numeroB = sc.nextInt();
+		
+		if (sinal.equals("+")) {
+			System.out.println(numeroA + numeroB);
+			
+		} else if (sinal.equals("-")) {
+			System.out.println(numeroA - numeroB);
+			
+		} else if (sinal.equals("*")) {
+			System.out.println(numeroA * numeroB);
+			
+		} else if (sinal.equals("/")) {
+			System.out.println(numeroA / numeroB);
+	
+		} else {
+			System.out.println("ERRO!");
+		}
+	
+		sc.close();
+		
+		
+	}
+
+}

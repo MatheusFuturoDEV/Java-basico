@@ -1,0 +1,28 @@
+package testes;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		boolean x = true;
+
+		while (x = true) {
+
+			System.out.println("Digite o primeiro numero: ");
+			int x1 = sc.nextInt();
+
+			System.out.println("Digite o segundo numero numero: ");
+			int y = sc.nextInt();
+
+			System.out.println(x1 + y);
+		}
+
+		sc.close();
+
+	}
+
+}

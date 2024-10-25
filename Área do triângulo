@@ -1,0 +1,29 @@
+package triangulo;
+
+import java.util.Scanner;
+public class Atividade1 { 
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		// Entrada do numero da base
+		System.out.print("Informe a base do trângulo: ");
+		int base = sc.nextInt();
+		
+		// Entrada da altura do triângulo 
+		System.out.print("Informe a altura do triângulo: ");
+		int altura = sc.nextInt();
+		
+		 // Calcula a área do triângulo
+        double area = (base * altura) / 2.0;
+
+        // Exibe o resultado
+        System.out.println("A área do triângulo é: " + area);
+
+        sc.close();
+		
+		
+
+	}
+
+}
